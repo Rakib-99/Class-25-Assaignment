@@ -1,0 +1,40 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.box{
+ width: 500px;
+ height: 300px;
+ background-color: #606060;
+ border: 2px solid#ddd;
+ border-radius: 10px;
+ margin: 50px auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.box-1{
+ width: 200px;
+ height: 200px;
+ background-color: #ddd;
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: all .5s ease-in-out;
+}
+.box-1 h1{
+ color: pink;
+ font-size: 25px;
+ font-weight: 400;
+ transition: all .5s ease-in-out;
+}
+.box-1:hover{
+ background-color: transparent;
+ transform: scale(.5);
+}
+.box-1:hover h1{
+ color: red;
+ 
+}
